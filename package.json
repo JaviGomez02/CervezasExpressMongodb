@@ -1,0 +1,17 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "description": "tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "set HOST=localhost&& set PORT=8000&& node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "diskdb": "^0.1.17",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  }
+}
